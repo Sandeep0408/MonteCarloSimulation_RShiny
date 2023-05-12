@@ -2,9 +2,7 @@ library(shiny)
 library(shinydashboard)
 library(ggplot2)
 
-setwd("D:/Sandeep/Personal/Tilburg/RShiny")
-
-set.seed(02112022)
+set.seed(010)
 
 shinyServer(function(input,output,session) {
   
