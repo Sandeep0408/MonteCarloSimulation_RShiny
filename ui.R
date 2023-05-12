@@ -2,8 +2,6 @@ shinyUI(
   pageWithSidebar(
     headerPanel("Monte Carlo Simulation"),
     sidebarPanel(
-      #selectInput("Distribution","Distribution type",
-      #            choices = c("Norma","log")),
       sliderInput ("Simulation", "Please select the number of simulation to be performed",
                     min = 1000, max = 10000,value = 1000, step = 1000)
     ),
